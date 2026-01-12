@@ -1,0 +1,30 @@
+.sthira-main{
+  padding: 10px 0;
+  background-image: url('https://betterlyf.com/images/banner-background.png');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 80px 120px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.container{
+  width: 1200px;
+  margin: auto;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont;
+  background: #fafafa;
+  color: #222;
+}
+
+h1, h2 {
+  margin-bottom: 0.5rem;
+}
