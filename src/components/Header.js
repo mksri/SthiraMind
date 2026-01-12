@@ -1,4 +1,4 @@
-import logo from '../assets/st-logo.jpeg'
+const logo = new URL("../assets/st-logo.jpeg", import.meta.url);
 
 
 export default function Header(){
@@ -7,7 +7,7 @@ export default function Header(){
       
        <header className="header">
         <div className="container">
-        <img src={logo} alt="SthiraMind logo" className="logo" />
+        <img src={logo} className="logo" />
          <h1>SthiraMind</h1>
         <p>
           A mental wellness platform inspired by the wisdom of Sthit Pragya.
